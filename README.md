@@ -1,14 +1,14 @@
-#SAHİBİNDEN 
+# SAHİBİNDEN 
 
-##Goal:
+## Goal:
 
 The purpose of this project is to design a website similar to Sahibinden.
 
-##Technologies and programming languages used:
+## Technologies and programming languages used:
 
 Python,django,bootstrap
 
-##Requirements:
+## Requirements:
 
 -There will be at least 3 views; home, search results and detail 
 - Home page with at least 5 categories and counts in each category 
@@ -16,7 +16,7 @@ Python,django,bootstrap
    as attributes. 
 - Search capability. Search will search all the attributes of products
 
-##Carry Through:
+## Carry Through:
 
  The web application named 'Sahibinden' is a platform I've created using Django. This platform enables users to engage in
  buying and selling activities in various categories such as second-hand items, real estate, vehicles, and more.
