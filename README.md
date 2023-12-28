@@ -20,7 +20,8 @@ Python,django,bootstrap
 
 ![Ekran görüntüsü 2023-12-28 234322](https://github.com/gultenguzel/Sahibinden/assets/140374859/442c9b25-0907-4d35-866d-12bbf47e596a)
 
-![Ekran görüntüsü 2023-12-28 234804](https://github.com/gultenguzel/Sahibinden/assets/140374859/240e7f82-9e42-4ada-9e99-8cc76dbf7087)
+![Ekran görüntüsü 2023-12-28 234804](https://github.com/gultenguzel/Sahibinden/assets/140374859/168ee6ea-2980-4e30-a999-dae9499c6944)
+
 
 
 
