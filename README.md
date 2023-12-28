@@ -16,6 +16,11 @@ Python,django,bootstrap
    as attributes. 
 - Search capability. Search will search all the attributes of products
 
+## Screenshot 
+
+![Ekran görüntüsü 2023-12-28 234322](https://github.com/gultenguzel/Sahibinden/assets/140374859/442c9b25-0907-4d35-866d-12bbf47e596a)
+
+
 ## Carry Through:
 
  The web application named 'Sahibinden' is a platform I've created using Django. This platform enables users to engage in
@@ -23,4 +28,5 @@ Python,django,bootstrap
  Potential buyers can browse through the available second-hand products and view them.
 
  ## Data Model
+ 
 ![Ekran görüntüsü 2023-12-28 231938](https://github.com/gultenguzel/Sahibinden/assets/140374859/8d0576c9-63e6-4352-9401-d81d638c972b)
