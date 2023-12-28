@@ -21,4 +21,6 @@ Python,django,bootstrap
  The web application named 'Sahibinden' is a platform I've created using Django. This platform enables users to engage in
  buying and selling activities in various categories such as second-hand items, real estate, vehicles, and more.
  Potential buyers can browse through the available second-hand products and view them.
- 
+
+ ## Data Model
+![Ekran görüntüsü 2023-12-28 231938](https://github.com/gultenguzel/Sahibinden/assets/140374859/8d0576c9-63e6-4352-9401-d81d638c972b)
