@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %} Search Detail {% endblock %}
+
+{% block content %}
+
+<div class="container mt-3 mb-3">
+    <div class="row">
+        {% if products %}
+        <!--<h5> {{ products }} </h5> -->
+        <div class="row g-6 py-5 row-cols-1 row-cols-lg-3 gx-4">
+            {% for product in products %}
+            {% include 'partials/_product.html' %}
+            {% endfor %}
+        </div>
+        {% else %}
+        <h5>Hatalı!</h5>
+        {% endif %}
+    </div>
+</div>
+
+{% endblock %}

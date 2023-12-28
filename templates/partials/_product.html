@@ -1,0 +1,48 @@
+{% load static %}
+
+<style>
+    .custom-card-title {
+        color: red;
+        font-size: 24px;
+    }
+
+    .custom-card {
+        border: 1px solid #ddd;
+        border-radius: 10px;
+    }
+
+    .custom-btn {
+        background-color: red;
+        color: white;
+        transition: background-color 0.3s ease;
+        /* Renk değişimini yumuşatmak için geçiş efekti eklenmiştir */
+        border: none;
+        /* Çerçeveyi kaldırmak için ekledik */
+        outline: none;
+        /* Çerçeveyi kaldırmak için ekledik */
+    }
+
+    .custom-btn:hover {
+        background-color: gray;
+        color: white;
+    }
+</style>
+
+<div class="card mb-3 custom-card" style="max-width: 540px;">
+    <div class="row g-0">
+        <div class="col-md-4 align-self-center">
+            <img src="{{ product.product_image.url }}" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <a href="{% url 'product_details' product.slug %}" style="text-decoration: none;">
+                    <h4 class="card-title custom-card-title">{{ product.product_name }}</h4>
+                </a>
+                <p class="card-text">{{ product.product_description|truncatewords:15|safe }}</p>
+                <a href="{% url 'product_details' product.slug %}" class="btn btn-primary d-inline custom-btn">İlan
+                    Detayları</a>
+                <h6 class="card-text d-inline">{{ product.formatted_price }} TL</h6>
+            </div>
+        </div>
+    </div>
+</div>

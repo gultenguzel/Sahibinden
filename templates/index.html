@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %} Index {% endblock %}
+
+{% block content %}
+{% for category in categories %}
+{{ category.category_name }}
+{% endfor %}
+<div class="container mt-3">
+    <h2>Ana Vitrin</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        {% for product in products %}
+        {% include 'partials/_product.html' %}
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock %}
