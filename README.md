@@ -22,6 +22,13 @@ Python,django,bootstrap
 
 ![Ekran görüntüsü 2023-12-28 234804](https://github.com/gultenguzel/Sahibinden/assets/140374859/168ee6ea-2980-4e30-a999-dae9499c6944)
 
+## Video
+
+
+
+https://github.com/gultenguzel/Sahibinden/assets/140374859/45175cf0-d084-4006-965c-57098deeef72
+
+
 
 
 
