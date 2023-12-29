@@ -16,11 +16,7 @@ Python,django,bootstrap
    as attributes. 
 - Search capability. Search will search all the attributes of products
 
-## Screenshot 
-
-![Ekran görüntüsü 2023-12-28 234322](https://github.com/gultenguzel/Sahibinden/assets/140374859/442c9b25-0907-4d35-866d-12bbf47e596a)
-
-![Ekran görüntüsü 2023-12-28 234804](https://github.com/gultenguzel/Sahibinden/assets/140374859/168ee6ea-2980-4e30-a999-dae9499c6944)
+ 
 
 ## Video
 
